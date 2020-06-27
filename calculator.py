@@ -9,7 +9,6 @@ class calculator():
         self.temp = ""
     
     def body(self):
-        print(f"Solve:{self.solve}")
         Button(root,text="Clear",bg="Grey",width=5,command=vs.clear_btn).grid(row=1,column=2)
         Label(root,text=self.temp,height=5).grid(row=1,column=8)
         Label(root,text="",width=2).grid(row=2,column=1)
